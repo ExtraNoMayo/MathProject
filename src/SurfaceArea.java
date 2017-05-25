@@ -3,5 +3,9 @@
  */
 
 public class SurfaceArea {
+    public static String SurfaceAreaMath(){
+        // math stuff
+        return("");//edit this when done
+    }
 
 }

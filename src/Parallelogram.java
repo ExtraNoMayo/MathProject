@@ -3,5 +3,9 @@
  */
 import java.util.Scanner;
 public class Parallelogram {
+    public static String ParallelogramMath(){
+        // math stuff
+        return("");//edit this when done
+    }
 
 }
