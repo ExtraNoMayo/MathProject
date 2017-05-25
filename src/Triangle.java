@@ -35,8 +35,12 @@ public class Triangle {
             int s = (A+B+C)/2;
             double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
             String AREA = Double.toString(area);
-            return(AREA);
+            int plc = AREA.indexOf('.');
+            String FINAL = AREA.substring(0, plc+3);
+            return("Area Equals: " +FINAL);
         }
+
+
 
 
     }
