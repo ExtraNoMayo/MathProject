@@ -34,8 +34,8 @@ public class Triangle {
         }else{
             int s = (A+B+C)/2;
             double area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
-            String AREA = area;
-            return("Invalid");
+            String AREA = Double.toString(area);
+            return(AREA);
         }
 
 
