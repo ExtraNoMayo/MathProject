@@ -1,9 +1,18 @@
 /**
- * Created by BDOSHNA on 5/24/2017.
+ * Created by joeb6 on 5/28/2017.
  */
+import java.util.Scanner;
 public class Circle {
     public static String CircleMath(){
-        // math stuff
-        return("");//edit this when done
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter Radius of Circle");
+        double radius = scan.nextDouble();
+        if (radius < 0) {
+            return("Error: Invalid Radius Length");
+        }
+
+        double AREA = (Math.PI * Math.pow(radius,2));
+        String finalAREA = String.valueOf(AREA);
+        return("Area Equals: " +finalAREA);//edit this when done
     }
 }
