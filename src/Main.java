@@ -21,7 +21,7 @@ public class Main {
         PL = new Parallelogram();
 
         System.out.println("Welcome To Area Calculator, Press any Enter to continue");
-        String temp = scan.nextLine(); //just delaying the while loop
+        scan.nextLine(); //just delaying the while loop
 
         while (true){ //infinite loop that will break when exit is typed
             System.out.println("For Area of Triangle Enter 1");
@@ -29,7 +29,8 @@ public class Main {
             System.out.println("For Area of a Regular Polygon with more than 4 sides Enter 3");
             System.out.println("For Area of Trapezoid Enter 4");
             System.out.println("For Area of Circle Enter 5");
-            System.out.println("For Surface Area of Prism Enter 6");
+            System.out.println("For Surface Area of Prism or Cylinder Enter 6");
+            System.out.println("To Exit Enter 'Exit'");
             String Num = scan.nextLine();
             if (Num.equalsIgnoreCase("Exit")){
                 System.out.println("Goodbye");
