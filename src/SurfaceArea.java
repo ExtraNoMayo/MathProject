@@ -18,9 +18,10 @@ public class SurfaceArea {
             } else if (numSides == 0){
                 System.out.println("Enter Radius of Cylinder Base");
                 double radius = scan.nextDouble();
-                double circleArea = Math.PI * (Math.pow(radius,2));
+                double baseArea = Math.PI * (Math.pow(radius,2));
+                double latArea = 2 * Math.PI * radius * height;
 
-                double finalAREA = circleArea * height;
+                double finalAREA = (2 * baseArea) + latArea;
                 return ("Surface Area Equals: " + finalAREA);
             } else {
                 double apothem = (side) / (2 * Math.tan(180/numSides));
