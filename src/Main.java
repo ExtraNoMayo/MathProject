@@ -53,7 +53,7 @@ public class Main {
             }
             System.out.println("    "); //blank space line
             System.out.println("Hit enter to Continue");
-            String temp2 = scan.nextLine();//delay again
+            scan.nextLine();//delay again
             System.out.println("_______________________________"); //line in between loops
 
         }
